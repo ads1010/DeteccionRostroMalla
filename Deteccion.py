@@ -24,7 +24,7 @@ cap.set(4,720)
 
 # Procesamiento en tiempo real
 while True:
-    #Leer la camara
+    #Leer la camara 
     ret, frame = cap.read()
     # Conversion de color puesto que OpenCV trabaja con BGR lo convertimos a RGB
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
